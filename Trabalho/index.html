@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segunda guerra mundial</title>
     <link rel="stylesheet" href="style.css">
+    <title>Segunda Guerra Mundial</title>
 </head>
 <body>
-    <div>
-        <h1 class="t1">Começo</h1>
-        <p class="p1">A guerra se iniciou em 1 de setembro de 1939 – 2 de setembro de 1945, com a Alemanha invadindo a polonia</p>
-        <img class="imagem1" src="https://www.penaestrada.blog.br/wp-content/uploads/2016/05/filmes-sobre-a-segunda-guerra-07.jpg.webp" alt="">
-    </div>
+    <header>
+        <h1>Segunda Guerra Mundial</h1>
+    </header>
 
-    
+    <nav>
+        <ul>
+            <li><a href="./">Início</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="informacoes">
+            <h2>Informações sobre a Segunda Guerra Mundial</h2>
+            <p>A Segunda Guerra Mundial foi um conflito global que durou de 1939 a 1945.</p>
+            <p>Foi o conflito mais mortal da história, com milhões de mortos e feridos.</p>
+            <p>O conflito envolveu muitos países e teve um impacto profundo no mundo.</p>
+        </section>
+
+        <section id="formulario">
+            <h2>TRABALHO</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Nosso Trabalho sobre a Segunda Guerra Mundial</p>
+    </footer>
 </body>
 </html>
